@@ -1,36 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title></title>
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-<div id="header">
-    <header>
-        <div class="titolo">
-            <!-- <img src="" alt="" -->
-            <h1><a href="index.html">Lorenzo Correale</a></h1>
+<div class="body">
+    <div id="header">
+        <header>
+            <div class="titolo">
+                <!-- <img src="" alt="" -->
+                <h1><a href="index.html">Lorenzo Correale</a></h1>
+            </div>
+        </header>
+
+        <nav class="navigazione">
+            <ul>
+                <li><a href="about.html">Chi Sono</a></li>
+                <li><a href="progetti.html">Progetti Recenti</a></li>
+                <li><a href="competenze.html">Le Mie Competenze</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <div class="chat">
+        <div class="chat-container">
+
+            <div class="chat-messages">
+
+
+                <!--- competenze  --->
+                <div class="message-right">
+                    <div class="message-content">
+                        <button id="competenze-btn">Parlami delle tue competenze</button>
+                    </div>
+                </div>
+
+                <div class="message-left">
+                    <div class="message-content">
+
+                        <p>Le mie abilità, posso dirti che padroneggio bene diversi
+                            linguaggi di programmazione.
+                        </p>
+                    </div>
+                </div>
+                <div class="message-left">
+                    <div class="message-content">
+
+                        <p>Da C++ per i microcontrollori a Java per applicazioni
+                            desktop, passando per lo sviluppo web con HTML e CSS, ho una gamma di competenze
+                            che possono aiutarti nei tuoi progetti.
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="message-right">
+                    <div class="message-content">
+                        <button id="home-btn">torna alla home</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- Barra di input fissa in fondo alla chat -->
+            <div class="input-bar">
+                <input disabled placeholder="Scrivi un messaggio..." type="text">
+                <button disabled>Invia</button>
+            </div>
+
         </div>
-    </header>
-
-    <nav class="navigazione">
-        <ul>
-            <li><a href="about.html">Chi Sono</a></li>
-            <li><a href="progetti.html">Progetti Recenti</a></li>
-            <li><a href="competenze.html">Le Mie Competenze</a></li>
-            <li><a href="contatti.html">Contatti</a></li>
-        </ul>
-    </nav>
+    </div>
+    <footer>
+        <p>Lorenzo Correale<br>
+            <a href="mailto:correale.lorenzo@volta.ts.it">correale.lorenzo@volta.ts.it</a></p>
+    </footer>
+    <script src="js/script.js"></script>
 </div>
-
-<h1>Le Mie Competenze</h1>
-
-<div class="par">
-    <p>Nel corso della mia carriera, ho sviluppato competenze in [elenca alcune competenze specifiche].
-        Che si tratti di [esempi pratici], la mia esperienza mi ha insegnato l'importanza di [valore o principio
-        che segui nel tuo lavoro]. Sono sempre aperto a nuove sfide e opportunità per crescere e migliorare.</p>
-</div>
-
 </body>
+
 </html>
+
+
