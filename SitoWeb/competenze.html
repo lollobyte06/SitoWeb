@@ -14,38 +14,47 @@
         <header>
             <div class="titolo">
                 <!-- <img src="" alt="" -->
-                <h1><a href="index.html">Lorenzo Correale</a></h1>
+                <h1><a href="index.html#">Lorenzo Correale</a></h1>
             </div>
         </header>
 
-        <nav class="navigazione">
+        <nav class="navigazione" id="nav">
             <ul>
-                <li><a href="about.html">Chi Sono</a></li>
-                <li><a href="progetti.html">Progetti Recenti</a></li>
-                <li><a href="competenze.html">Le Mie Competenze</a></li>
-                <li><a href="contatti.html">Contatti</a></li>
+                <li><a href="about.html#nav">Chi Sono</a></li>
+                <li><a href="competenze.html#nav">Competenze</a></li>
+                <li><a href="lavori.html#nav">Esperienze professionali</a></li>
+                <li><a href="progetti.html#nav">Progetti Recenti</a></li>
+                <li><a href="contatti.html#nav">Contatti</a></li>
             </ul>
 
         </nav>
     </div>
 
-    <div class="chat">
+    <div class="chat" id="chat">
         <div class="chat-container">
-
+            <div class="chat-name">
+                <div class="name">
+                    <img src="img/account-circle-outline.svg">
+                    <h3>Lorenzo Correale</h3>
+                </div>
+            </div>
             <div class="chat-messages">
 
 
                 <!--- competenze  --->
                 <div class="message-right">
                     <div class="message-content">
-                        <button id="competenze-btn">Parlami delle tue competenze</button>
+                        <a href="competenze.html#chat">
+                            <button>Parlami delle tue competenze</button>
+                        </a>
+
                     </div>
                 </div>
 
                 <div class="message-left">
                     <div class="message-content">
 
-                        <p>Le mie abilità, posso dirti che padroneggio bene diversi
+                        <p>Posso dirti che padroneggio bene diversi
                             linguaggi di programmazione.
                         </p>
                     </div>
@@ -61,13 +70,49 @@
                     </div>
                 </div>
 
-
-                <div class="message-right">
+                <div class="message-left">
                     <div class="message-content">
-                        <button id="home-btn">torna alla home</button>
+
+                        <p> Ho ottenuto le certificazioni Cisco IT Essentials e CCNA,
+                            che hanno arricchito la mia conoscenza delle reti e
+                            delle infrastrutture IT.
+
+                        </p>
                     </div>
                 </div>
 
+                <div class="message-left">
+                    <div class="message-content">
+
+                        <p> Attualmente sto seguendo due corsi, uno di machine learning e uno di robotica.
+                        </p>
+                    </div>
+                </div>
+                <div class="message-left">
+                    <div class="message-content">
+
+                        <p> Inoltre, ho competenze nella modellazione 3D con AutoCAD e Fusion,
+                            e so creare circuiti stampati.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="message-left">
+                    <div class="message-content">
+
+                        <p> Possiedo anche la patente di radioamatore e quella per droni.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="message-right">
+                    <div class="message-content">
+                        <a href="index.html#competenze">
+                            <button id="home-btn">Torna alla home</button>
+                        </a>
+                    </div>
+                </div>
 
 
             </div>

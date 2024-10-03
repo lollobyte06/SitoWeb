@@ -14,23 +14,31 @@
         <header>
             <div class="titolo">
                 <!-- <img src="" alt="" -->
-                <h1><a href="index.html">Lorenzo Correale</a></h1>
+                <h1><a href="index.html#">Lorenzo Correale</a></h1>
             </div>
         </header>
 
-        <nav class="navigazione">
+        <nav class="navigazione" id="nav">
             <ul>
-                <li><a href="about.html">Chi Sono</a></li>
-                <li><a href="progetti.html">Progetti Recenti</a></li>
-                <li><a href="competenze.html">Le Mie Competenze</a></li>
-                <li><a href="contatti.html">Contatti</a></li>
+                <li><a href="about.html#nav">Chi Sono</a></li>
+                <li><a href="competenze.html#nav">Competenze</a></li>
+                <li><a href="lavori.html#nav">Esperienze professionali</a></li>
+                <li><a href="progetti.html#nav">Progetti Recenti</a></li>
+                <li><a href="contatti.html#nav">Contatti</a></li>
             </ul>
 
         </nav>
     </div>
 
-    <div class="chat">
+    <div class="chat" id="chat">
         <div class="chat-container">
+
+            <div class="chat-name">
+                <div class="name">
+                    <img src="img/account-circle-outline.svg">
+                    <h3>Lorenzo Correale</h3>
+                </div>
+            </div>
 
             <div class="chat-messages">
                 <!--- ciao  --->
@@ -46,7 +54,7 @@
                 <!--- chi sono  --->
 
                 <div class="message-left">
-                    <div class="message-content">
+                    <div class="message-content" id="chisono">
                         <h3>Chi sono</h3>
                         <p>Sono uno studente dell'ultimo anno delle superiori e studio informatica.
                         </p>
@@ -55,14 +63,14 @@
 
                 <div class="message-right">
                     <div class="message-content">
-                        <button id="who-btn">Dimmi di più di te</button>
+                        <button id="chisono-btn">Dimmi di più di te</button>
                     </div>
                 </div>
 
                 <!--- le mie competenze  --->
 
                 <div class="message-left">
-                    <div class="message-content">
+                    <div class="message-content" id="competenze">
                         <h3>Le Mie Competenze</h3>
                         <p>Ho competenze in vari linguaggi, tra cui C++, Java, HTML e CSS.
                             Posso aiutarti a realizzare progetti sia web che software.</p>
@@ -71,6 +79,7 @@
 
                 <div class="message-right">
                     <div class="message-content">
+
                         <button id="competenze-btn">Parlami delle tue competenze</button>
                     </div>
                 </div>
@@ -78,7 +87,7 @@
                 <!--- esperienze lavorative  --->
 
                 <div class="message-left">
-                    <div class="message-content">
+                    <div class="message-content" id="esperienze">
                         <h3>Esperienza Professionale</h3>
                         <p>Ho lavorato nel inserimento di articoli in un software di gestione magazzino,
                             dove ho applicato le mie conoscenze tecniche in un contesto reale.</p>
@@ -94,7 +103,7 @@
                 <!--- progetti personali  --->
 
                 <div class="message-left">
-                    <div class="message-content">
+                    <div class="message-content" id="progetti">
                         <h3>Progetti Personali</h3>
                         <p> Dai un'occhiata ai miei progetti.</p>
                     </div>
@@ -109,7 +118,7 @@
                 <!--- contatti  --->
 
                 <div class="message-left">
-                    <div class="message-content">
+                    <div class="message-content" id="contatti">
                         <h3>Contattami</h3>
                         <p>Spero di sentirci presto! Se hai domande o idee da condividere scrivimi pure.</p>
                     </div>
@@ -120,9 +129,6 @@
                         <button id="contatti-btn">Scrivi</button>
                     </div>
                 </div>
-
-
-
 
 
             </div>
